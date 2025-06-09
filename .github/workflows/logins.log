@@ -1,0 +1,388 @@
+2025-06-08 23:18:03,842 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:5555
+2025-06-08 23:18:03,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 23:25:52,950 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:5555
+2025-06-08 23:25:52,951 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 23:32:28,882 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:5555
+2025-06-08 23:32:28,883 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 23:37:06,456 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-08 23:37:06,457 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 23:42:44,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-08 23:42:44,461 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 23:42:44,464 - INFO -  * Restarting with stat
+2025-06-08 23:42:46,080 - WARNING -  * Debugger is active!
+2025-06-08 23:42:46,081 - INFO -  * Debugger PIN: 942-638-967
+2025-06-08 23:43:06,362 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-08 23:43:07,480 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:07] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-08 23:43:07,650 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:07] "GET /static/content/bootstrap.min.css HTTP/1.1" 200 -
+2025-06-08 23:43:07,865 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:07] "GET /static/content/site.css HTTP/1.1" 200 -
+2025-06-08 23:43:07,875 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:07] "GET /static/images/sign-in-with-ms.svg HTTP/1.1" 200 -
+2025-06-08 23:43:07,897 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:07] "GET /static/scripts/modernizr-2.6.2.js HTTP/1.1" 200 -
+2025-06-08 23:43:07,938 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:07] "GET /static/scripts/jquery-1.10.2.js HTTP/1.1" 200 -
+2025-06-08 23:43:08,255 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:08] "GET /static/scripts/bootstrap.js HTTP/1.1" 200 -
+2025-06-08 23:43:08,353 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:08] "GET /static/scripts/respond.js HTTP/1.1" 200 -
+2025-06-08 23:43:08,691 - INFO - 127.0.0.1 - - [08/Jun/2025 23:43:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 23:50:35,759 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:35] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-08 23:50:35,796 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:35] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-08 23:50:35,801 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:35] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-08 23:50:36,158 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:36] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=8xwdkpNHSQJ1Z2ztlFqx HTTP/1.1" 200 -
+2025-06-08 23:50:36,409 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:36] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-08 23:50:57,203 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:57] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-08 23:50:57,219 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-08 23:50:57,540 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-08 23:50:57,792 - INFO - 127.0.0.1 - - [08/Jun/2025 23:50:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=8xwdkpNHSQJ1Z2ztlFqx HTTP/1.1[0m" 304 -
+2025-06-08 23:56:45,903 - INFO -  * Detected change in 'C:\\Users\\ryouf.alghamdi\\OneDrive - Accenture\\Desktop\\Azure Applications\\config.py', reloading
+2025-06-08 23:56:46,141 - INFO -  * Restarting with stat
+2025-06-08 23:56:49,201 - WARNING -  * Debugger is active!
+2025-06-08 23:56:49,205 - INFO -  * Debugger PIN: 942-638-967
+2025-06-08 23:57:04,924 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:04] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-08 23:57:05,016 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-08 23:57:05,259 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-08 23:57:05,592 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:05] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=AqzTETXjNQdU5BVnfDu9 HTTP/1.1" 200 -
+2025-06-08 23:57:36,870 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:36] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-08 23:57:36,916 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:36] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-08 23:57:37,229 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:37] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-08 23:57:37,235 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:37] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-08 23:57:37,284 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:37] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-08 23:57:37,339 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:37] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-08 23:57:37,644 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:37] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-08 23:57:37,656 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:37] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-08 23:57:50,035 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:50] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-08 23:57:50,064 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-08 23:57:50,260 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-08 23:57:50,593 - INFO - 127.0.0.1 - - [08/Jun/2025 23:57:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=AqzTETXjNQdU5BVnfDu9 HTTP/1.1[0m" 304 -
+2025-06-09 00:06:57,460 - INFO -  * Detected change in 'C:\\Users\\ryouf.alghamdi\\OneDrive - Accenture\\Desktop\\Azure Applications\\config.py', reloading
+2025-06-09 00:06:57,714 - INFO -  * Restarting with stat
+2025-06-09 00:07:33,042 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:07:33,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:07:33,047 - INFO -  * Restarting with stat
+2025-06-09 00:07:35,183 - WARNING -  * Debugger is active!
+2025-06-09 00:07:35,186 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:08:22,968 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:08:24,062 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:08:24,205 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:08:24,451 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:08:24,465 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:08:24,485 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:08:24,531 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:08:24,827 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:08:24,972 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:24] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:08:42,964 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:42] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-09 00:08:43,010 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-09 00:08:43,019 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-09 00:08:43,392 - INFO - 127.0.0.1 - - [09/Jun/2025 00:08:43] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=NAnqd7yloqzQLJYiYhww HTTP/1.1" 200 -
+2025-06-09 00:12:57,469 - INFO -  * Detected change in 'C:\\Users\\ryouf.alghamdi\\OneDrive - Accenture\\Desktop\\Azure Applications\\config.py', reloading
+2025-06-09 00:12:57,651 - INFO -  * Restarting with stat
+2025-06-09 00:12:59,746 - WARNING -  * Debugger is active!
+2025-06-09 00:12:59,750 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:13:32,629 - INFO - 127.0.0.1 - - [09/Jun/2025 00:13:32] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-09 00:13:32,712 - INFO - 127.0.0.1 - - [09/Jun/2025 00:13:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-09 00:13:32,976 - INFO - 127.0.0.1 - - [09/Jun/2025 00:13:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-09 00:13:33,312 - INFO - 127.0.0.1 - - [09/Jun/2025 00:13:33] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=FdDrnn9IjKThBzeLhlaS HTTP/1.1" 200 -
+2025-06-09 00:14:48,114 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:14:48,115 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:14:48,117 - INFO -  * Restarting with stat
+2025-06-09 00:14:50,666 - WARNING -  * Debugger is active!
+2025-06-09 00:14:50,670 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:14:58,314 - INFO - 127.0.0.1 - - [09/Jun/2025 00:14:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:14:59,731 - INFO - 127.0.0.1 - - [09/Jun/2025 00:14:59] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:14:59,931 - INFO - 127.0.0.1 - - [09/Jun/2025 00:14:59] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:15:00,112 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:00] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:15:00,114 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:00] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:15:00,122 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:00] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:15:00,141 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:00] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:15:00,486 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:00] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:15:00,537 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:00] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:15:11,274 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:11] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-09 00:15:11,547 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-09 00:15:11,604 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-09 00:15:11,952 - INFO - 127.0.0.1 - - [09/Jun/2025 00:15:11] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=pPENlF93mt5dmh5Yb6PV HTTP/1.1" 200 -
+2025-06-09 00:17:20,272 - INFO -  * Detected change in 'C:\\Users\\ryouf.alghamdi\\OneDrive - Accenture\\Desktop\\Azure Applications\\config.py', reloading
+2025-06-09 00:17:20,506 - INFO -  * Restarting with stat
+2025-06-09 00:17:23,096 - WARNING -  * Debugger is active!
+2025-06-09 00:17:23,100 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:18:22,731 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:18:22,732 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:18:22,736 - INFO -  * Restarting with stat
+2025-06-09 00:18:25,185 - WARNING -  * Debugger is active!
+2025-06-09 00:18:25,187 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:18:45,894 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:45] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:18:46,630 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:46] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:18:46,719 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:46] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:18:46,983 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:46] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:18:46,986 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:46] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:18:46,991 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:46] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:18:46,997 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:46] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:18:47,312 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:47] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:18:47,390 - INFO - 127.0.0.1 - - [09/Jun/2025 00:18:47] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:19:01,457 - INFO - 127.0.0.1 - - [09/Jun/2025 00:19:01] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-09 00:19:01,491 - INFO - 127.0.0.1 - - [09/Jun/2025 00:19:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-09 00:19:01,498 - INFO - 127.0.0.1 - - [09/Jun/2025 00:19:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-09 00:19:01,862 - INFO - 127.0.0.1 - - [09/Jun/2025 00:19:01] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=EPWNbyTQrTYwqO0A5a5d HTTP/1.1" 200 -
+2025-06-09 00:20:17,289 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:20:17,290 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:20:17,292 - INFO -  * Restarting with stat
+2025-06-09 00:20:19,186 - WARNING -  * Debugger is active!
+2025-06-09 00:20:19,190 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:20:27,267 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:27] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:20:28,362 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:28] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:20:28,515 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:28] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:20:28,735 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:28] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:20:28,746 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:28] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:20:28,764 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:28] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:20:28,799 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:28] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:20:29,112 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:29] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:20:29,225 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:29] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:20:56,304 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:56] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-09 00:20:56,326 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:56] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-09 00:20:56,532 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:56] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-09 00:20:56,908 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=7shwMybypBul3niFfDdp HTTP/1.1" 200 -
+2025-06-09 00:25:18,033 - INFO -  * Detected change in 'C:\\Users\\ryouf.alghamdi\\OneDrive - Accenture\\Desktop\\Azure Applications\\config.py', reloading
+2025-06-09 00:25:18,267 - INFO -  * Restarting with stat
+2025-06-09 00:25:20,621 - WARNING -  * Debugger is active!
+2025-06-09 00:25:20,625 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:26:16,327 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:26:16,328 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:26:16,329 - INFO -  * Restarting with stat
+2025-06-09 00:26:18,520 - WARNING -  * Debugger is active!
+2025-06-09 00:26:18,523 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:26:34,004 - ERROR - 127.0.0.1 - - [09/Jun/2025 00:26:34] code 400, message Bad request version ('\x00\x02\x01\x00\x003\x04ï\x04íêê\x00\x01\x00\x11ì\x04À\x92\x18DKQjÍ:\x9e\x8c7µ\x8c\x15\x98L')
+2025-06-09 00:26:34,005 - ERROR - 127.0.0.1 - - [09/Jun/2025 00:26:34] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01DÍ\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+2025-06-09 00:26:34,005 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:34] "[31m[1m\x16\x03\x01\x05ô\x01\x00\x05ð\x03\x03ôm¬cFh\x97ÌÅÕI«©»«.\x0b5£®¶ÞE-\x9djß3n5\x96\x80 e²Êfu '1&Â¦¹Ä%S\x9a\x0e\x0e¡\x9cYGÙfk\x95\x86V-SÂ¥\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x05\x87**\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x00\x00\x0e\x00\x0c\x00\x00\x09localhost\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x12\x00\x00\x00#\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íêê\x00\x01\x00\x11ì\x04À\x92\x18DKQjÍ:\x9e\x8c7µ\x8c\x15\x98L[0m" 400 -
+2025-06-09 00:26:34,006 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:34] "[31m[1m\x16\x03\x01\x05ô\x01\x00\x05ð\x03\x035á\x96D¤\x0bc^Fòß²Ã\x19-À©P\x84#(G\\;\x16\x7f"Z»ú\x95H ï­\x8bNîà<»\x80\x8a/\x92\x98Ø±^õÙ¥>Ü\x01ø\x85\x09ÁÓ'q_\x1c\x05\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x05\x87**\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01DÍ\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00[0m" 400 -
+2025-06-09 00:26:34,248 - ERROR - 127.0.0.1 - - [09/Jun/2025 00:26:34] code 400, message Bad request version ('ø§:')
+2025-06-09 00:26:34,249 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:34] "[31m[1m\x16\x03\x01\x05ô\x01\x00\x05ð\x03\x03¦Yù¸B{\x03ãu2\x80\x92¬,Feì¸K\x10\x1fytó{\x87]¾Y \x86\x97 w$\x10\x81>\x0e^\x92DÏ«?ª]l\x84»Ú¶\x87\x94*ö:)×Åû\x80M,\x0e\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x05\x87ZZ\x00\x00\x00-\x00\x02\x01\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x00\x00\x0e\x00\x0c\x00\x00\x09localhost\x00\x0b\x00\x02\x01\x00\x00+\x00\x07\x06úú\x03\x04\x03\x03\x00#\x00\x00\x003\x04ï\x04íúú\x00\x01\x00\x11ì\x04ÀJp-©\x17 )Ä¬þ\x06&A¹\x86¸\x8bÅu\x80©Ås´\x09»,ÚgÈz¶\x8c=[j\x81¶J\x09\x0bT\x82¸\x0cgC\x02¯Ö¡b9¶¿\x19\x15;\x1a/ùä \x9eÅ"D4UØjOç&N©¹~r,\x1cø§:[0m" 400 -
+2025-06-09 00:26:34,312 - ERROR - 127.0.0.1 - - [09/Jun/2025 00:26:34] code 400, message Bad request version ('é¶$Ö<\\')
+2025-06-09 00:26:34,312 - ERROR - 127.0.0.1 - - [09/Jun/2025 00:26:34] code 400, message Bad request version ('±¬ðç')
+2025-06-09 00:26:34,313 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:34] "[31m[1m\x16\x03\x01\x05ô\x01\x00\x05ð\x03\x03­½\x87\x10¹|\x13m&[\x03/Îµ¡ÓõÆH\x02ñÚ¼m\x82YkªµJë-  í=¢ÿ<n¹\x83\x06hè\x99Ë®\x13ÍS(\x1cfÖâ%¤­/Ñ\x04\x91e\x11\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x05\x87::\x00\x00ÿ\x01\x00\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x17\x00\x00\x00#\x00\x00\x003\x04ï\x04í\x9a\x9a\x00\x01\x00\x11ì\x04Àî\x97\x83\x1e*\x16\x1dé¶$Ö<\\[0m" 400 -
+2025-06-09 00:26:34,314 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:34] "[31m[1m\x16\x03\x01\x05ô\x01\x00\x05ð\x03\x03Fôk\x83Ù¹ÓÇ4\x95NÌO?ü\x83wÑ 3ÊãíË¦ë<ñ?|y5 k\x09±¬ðç[0m" 400 -
+2025-06-09 00:26:34,556 - ERROR - 127.0.0.1 - - [09/Jun/2025 00:26:34] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x05\x87ZZ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00')
+2025-06-09 00:26:34,556 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:34] "[31m[1m\x16\x03\x01\x05ô\x01\x00\x05ð\x03\x03O\x08üWsüÉpY+ \x13-J\x03\x11\x19×\x00\x00\x9dÍR\x1d\x861ìqÚÁ\x7f¯ K\x17²$Z\x0b¸\x87É°-¿\x03\x88`i\x9dÿXb\x96\x81,Î#s\x8dèßOt\x1e\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x05\x87ZZ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00[0m" 400 -
+2025-06-09 00:26:40,888 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:26:42,282 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:42] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:26:43,008 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:43] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:26:43,036 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:43] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:26:43,042 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:43] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:26:43,050 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:43] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:26:43,053 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:43] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:26:43,058 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:43] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:26:43,372 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:43] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:26:59,697 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:59] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-09 00:26:59,717 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-09 00:26:59,889 - INFO - 127.0.0.1 - - [09/Jun/2025 00:26:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-09 00:27:00,237 - INFO - 127.0.0.1 - - [09/Jun/2025 00:27:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=ueu5JukDtIZiaqioe4vC HTTP/1.1" 200 -
+2025-06-09 00:32:01,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:32:01,074 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:32:01,077 - INFO -  * Restarting with stat
+2025-06-09 00:32:03,121 - WARNING -  * Debugger is active!
+2025-06-09 00:32:03,125 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:32:12,694 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:32:13,683 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:13] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:32:13,802 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:13] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:32:14,040 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:14] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:32:14,043 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:14] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:32:14,046 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:14] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:32:14,053 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:14] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:32:14,362 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:14] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:32:14,453 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:14] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:32:45,251 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:45] "[35m[1mPOST /login?next=/ HTTP/1.1[0m" 500 -
+2025-06-09 00:32:45,580 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-09 00:32:45,583 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-09 00:32:45,830 - INFO - 127.0.0.1 - - [09/Jun/2025 00:32:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=gjSiWui2g89PJUTcrCZj HTTP/1.1" 200 -
+2025-06-09 00:39:24,966 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:39:24,967 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:39:24,970 - INFO -  * Restarting with stat
+2025-06-09 00:39:26,731 - WARNING -  * Debugger is active!
+2025-06-09 00:39:26,735 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:39:36,859 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:39:37,856 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:37] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:39:38,007 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:38] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:39:38,229 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:38] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:39:38,235 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:38] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:39:38,246 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:38] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:39:38,275 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:38] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:39:38,605 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:38] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:39:38,699 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:38] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:39:58,197 - WARNING - Failed login attempt for user: ryouf via form login
+2025-06-09 00:39:58,433 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:58] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-09 00:39:59,323 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:59] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:39:59,374 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:59] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:39:59,678 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:59] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:39:59,680 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:59] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:39:59,685 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:59] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:39:59,690 - INFO - 127.0.0.1 - - [09/Jun/2025 00:39:59] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:40:00,026 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:00] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:40:00,051 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:00] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:40:32,076 - WARNING - Failed login attempt for user: ryouf via form login
+2025-06-09 00:40:32,363 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-09 00:40:33,263 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:40:33,618 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:40:33,620 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:40:33,624 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:40:33,631 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:40:33,641 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:40:33,856 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:40:33,956 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:33] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:40:58,669 - WARNING - Failed login attempt for user: ryouf via form login
+2025-06-09 00:40:58,916 - INFO - 127.0.0.1 - - [09/Jun/2025 00:40:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-09 00:41:02,034 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:41:02,384 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:41:02,386 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:41:02,391 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:41:02,398 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:41:02,406 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:41:02,623 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:41:02,721 - INFO - 127.0.0.1 - - [09/Jun/2025 00:41:02] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:00,442 - WARNING - Failed login attempt for user: ryouf via form login
+2025-06-09 00:42:00,678 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-09 00:42:01,898 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:01] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:42:02,235 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:02] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:42:02,237 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:02] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:42:02,241 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:02] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:02,246 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:02] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:42:02,256 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:02] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:02,512 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:02] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:02,562 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:02] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:51,486 - WARNING - Failed login attempt for user: ryouf via form login
+2025-06-09 00:42:51,798 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-09 00:42:55,024 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:42:55,377 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:42:55,378 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:42:55,382 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:42:55,387 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:55,396 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:55,630 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:42:55,696 - INFO - 127.0.0.1 - - [09/Jun/2025 00:42:55] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:20,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:43:20,578 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:43:20,580 - INFO -  * Restarting with stat
+2025-06-09 00:43:22,788 - WARNING -  * Debugger is active!
+2025-06-09 00:43:22,793 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:43:32,109 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:43:33,908 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:33] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:43:34,229 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:34] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:43:34,330 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:34] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:43:34,335 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:34] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:34,345 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:34] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:34,352 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:34] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:43:34,695 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:34] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:34,803 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:34] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:52,909 - WARNING - Failed login attempt for user: ryouf via form login
+2025-06-09 00:43:53,236 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:53] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-09 00:43:54,408 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:54] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:43:54,769 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:54] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:43:54,771 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:54] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:54,773 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:54] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:43:54,776 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:54] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:54,784 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:54] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:43:55,019 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:55] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:43:55,107 - INFO - 127.0.0.1 - - [09/Jun/2025 00:43:55] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:47:36,901 - WARNING - Failed login attempt for user: admin via form login
+2025-06-09 00:47:37,147 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-09 00:47:38,197 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:47:38,230 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:47:38,541 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:47:38,544 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:47:38,549 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:47:38,555 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:47:38,869 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:47:38,882 - INFO - 127.0.0.1 - - [09/Jun/2025 00:47:38] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:53:54,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 00:53:54,082 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 00:53:54,085 - INFO -  * Restarting with stat
+2025-06-09 00:53:55,832 - WARNING -  * Debugger is active!
+2025-06-09 00:53:55,834 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 00:54:02,888 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:02] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 00:54:04,011 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:04] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 00:54:04,284 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:04] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:54:04,464 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:04] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:54:04,471 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:04] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:54:04,497 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:04] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:54:04,560 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:04] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:54:04,875 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:04] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:54:05,005 - INFO - 127.0.0.1 - - [09/Jun/2025 00:54:05] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:57:10,795 - WARNING - Failed login attempt for user: admin via form login
+2025-06-09 00:57:11,033 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:11] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-09 00:57:14,127 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "GET /login HTTP/1.1" 200 -
+2025-06-09 00:57:14,187 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 00:57:14,500 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 00:57:14,504 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:57:14,509 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 00:57:14,513 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 00:57:14,847 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 00:57:14,852 - INFO - 127.0.0.1 - - [09/Jun/2025 00:57:14] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 00:59:57,888 - WARNING - Failed login attempt for user: admin via form login
+2025-06-09 00:59:58,153 - INFO - 127.0.0.1 - - [09/Jun/2025 00:59:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-09 01:00:01,255 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "GET /login HTTP/1.1" 200 -
+2025-06-09 01:00:01,303 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 01:00:01,616 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 01:00:01,619 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 01:00:01,625 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:00:01,629 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:00:01,946 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 01:00:01,948 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:01] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 01:00:32,100 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 01:00:32,100 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 01:00:32,103 - INFO -  * Restarting with stat
+2025-06-09 01:00:34,098 - WARNING -  * Debugger is active!
+2025-06-09 01:00:34,102 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 01:00:42,420 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 01:00:43,734 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:43] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 01:00:43,885 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:43] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 01:00:44,108 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:44] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 01:00:44,116 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:44] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:00:44,120 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:44] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:00:44,132 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:44] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 01:00:44,493 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:44] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 01:00:44,503 - INFO - 127.0.0.1 - - [09/Jun/2025 01:00:44] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 01:01:14,148 - WARNING - Failed login attempt for user: admin via form login
+2025-06-09 01:01:14,380 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:14] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-09 01:01:17,364 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:17] "GET /login HTTP/1.1" 200 -
+2025-06-09 01:01:17,731 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:17] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 01:01:17,733 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:17] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 01:01:17,740 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:17] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:01:17,744 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:17] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:01:17,753 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:17] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 01:01:17,969 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:17] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 01:01:18,069 - INFO - 127.0.0.1 - - [09/Jun/2025 01:01:18] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 01:32:43,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5555
+2025-06-09 01:32:43,928 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 01:32:43,931 - INFO -  * Restarting with stat
+2025-06-09 01:32:45,945 - WARNING -  * Debugger is active!
+2025-06-09 01:32:45,947 - INFO -  * Debugger PIN: 942-638-967
+2025-06-09 01:32:53,587 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:53] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-09 01:32:54,579 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:54] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-09 01:32:54,826 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:54] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 01:32:54,974 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:54] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 01:32:54,977 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:54] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 01:32:55,004 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:55] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:32:55,055 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:55] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:32:55,393 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:55] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 01:32:55,434 - INFO - 127.0.0.1 - - [09/Jun/2025 01:32:55] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 01:33:41,566 - WARNING - Failed login attempt for user: admin via form login
+2025-06-09 01:33:41,792 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:41] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-09 01:33:42,847 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:42] "GET /login HTTP/1.1" 200 -
+2025-06-09 01:33:42,884 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:42] "[36mGET /static/content/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-09 01:33:43,200 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:43] "[36mGET /static/scripts/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:33:43,203 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:43] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+2025-06-09 01:33:43,206 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:43] "[36mGET /static/scripts/jquery-1.10.2.js HTTP/1.1[0m" 304 -
+2025-06-09 01:33:43,211 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:43] "[36mGET /static/images/sign-in-with-ms.svg HTTP/1.1[0m" 304 -
+2025-06-09 01:33:43,546 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:43] "[36mGET /static/scripts/bootstrap.js HTTP/1.1[0m" 304 -
+2025-06-09 01:33:43,550 - INFO - 127.0.0.1 - - [09/Jun/2025 01:33:43] "[36mGET /static/scripts/respond.js HTTP/1.1[0m" 304 -
+2025-06-09 01:34:55,895 - INFO -  * Detected change in 'C:\\Users\\ryouf.alghamdi\\OneDrive - Accenture\\Desktop\\Azure Applications\\FlaskWebProject\\views.py', reloading
+2025-06-09 01:34:56,146 - INFO -  * Restarting with stat
