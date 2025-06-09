@@ -1,5 +1,17 @@
 name: Build and deploy Python app to Azure Web App - MyfirstApp
 
+- name: Setup Python version
+  uses: actions/setup-python@v4
+  with:
+    python-version: '3.11'
+
+- name: Setup build dependencies
+  run: sudo apt-get install -y unixodbc-dev gcc g++ python3-dev
+
+- name: Install dependencies
+  run: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
 
 on:
   push:
