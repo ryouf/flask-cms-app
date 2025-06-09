@@ -13,15 +13,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup Python version
+    - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
 
-    - name: Setup build dependencies
-      run: sudo apt-get install -y unixodbc-dev gcc g++ python3-dev
+    - name: Install system dependencies for pyodbc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y python3-dev build-essential unixodbc-dev gcc g++
 
-    - name: Install dependencies
+    - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
@@ -29,13 +31,13 @@ jobs:
     - name: Login to Azure
       uses: azure/login@v2
       with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_62D4B6A2653C4236A6325FAAF067699E }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_B1EF95716eB0-B86A9180EA58724DF34 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_B93A5DB1A35D45FDA60BD5888FD48D51 }}
+        client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_62D4B6A2653C4236A6325FAAF067699E }}
+        tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_B1EF95716EB0B86A9180EA58724DF34 }}
+        subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_B93A5DB1A35D45FDA60BD5888FD48D51 }}
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: MyfirstApp
-        slot-name: Production
+        app-name: 'MyfirstApp'
+        slot-name: 'production'
         package: .
